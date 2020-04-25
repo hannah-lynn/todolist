@@ -1,7 +1,39 @@
+html {
+    height: 100%;
+}
+
+body {
+
+	height: 100%;
+    margin: 30;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+	font: 'Raleway', sans-serif;
+	text-align: center;
+	background: linear-gradient(to bottom right, rgb(235, 255, 250), rgb(112, 204, 255));
+}
+
+ul {
+	list-style-type: none;
+}
+
+
 .done {
   text-decoration: line-through;
 }
 
-/*.container {
-	
-}*/
+h1 {
+	font: 300 3.5em 'Raleway', sans-serif;
+	color: rgba(0,0,0,.5);
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+	width: 100%;
+}
+
+h2 {
+	font: 900 1em 'Raleway', sans-serif;
+	color: rgba(0,0,0,.5);
+	text-align: center;
+	text-transform: none;
+	letter-spacing: 0.01em;
