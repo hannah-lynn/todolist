@@ -11,7 +11,7 @@ function inputLength() {
 
 function createTodo() {
 	var li = document.createElement("li");
-	li.appendChild(document.createTextNode(input.value));
+	li.appendChild(document.createTextNode(input.value + ""));
 	li.className = "listItem";
 	var deleteBtn = document.createElement("button");
 	deleteBtn.className = "delete";
