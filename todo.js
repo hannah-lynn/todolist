@@ -19,6 +19,7 @@ function createTodo() {
 	li.appendChild(deleteBtn);
 	ul.appendChild(li);
 	input.value = "";
+	li.addEventListener("click", toggleTodoAfterClick);
 	
 }
 
@@ -60,17 +61,4 @@ input.addEventListener("keypress", addTodoAfterKeypress);
 
 
 
-// for(var i = 0; i < list.length; i++) {
-//   list[i].querySelector(".delete").onclick = delOnClick;
-// }
-// function toggleTodoAfterClick(e) {
-// 	if(e.target.classList.contains("listItem")){
-// 		var li = e.target;
-// 		li.classList.toggle("done");
-// 	}
-// }
-
-// for(var i = 0; i < list.length; i++) {
-// 	list[i].addEventListener("click", toggleTodoAfterClick);
-// }
 
