@@ -81,7 +81,7 @@ ul {
   color: rgb(57, 54, 54);
 }
 
-@media (min-width: 650px) {
+@media only screen and (max-width: 450px) {
   h1 {
     font-size: 4em;
     margin-top: 100px;
