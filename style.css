@@ -27,10 +27,14 @@ h1 {
   text-transform: uppercase;
   letter-spacing: 0.1em;
   margin-top: 5%;
+
+  color: #fcedd8;
+  font-weight: 700;
+  text-shadow: 5px 5px 0px #ec9b9b, 10px 10px 0px #8484de, 15px 15px 0px #46b59b;
 }
 
 h2 {
-  color: rgba(0, 0, 0, 0.5);
+  color: #fcedd8;
   text-align: center;
   text-transform: none;
   letter-spacing: 0.01em;
@@ -49,6 +53,7 @@ input {
   border-radius: 5px;
   font-family: 'Sriracha', cursive;
   padding-left: 5px;
+  border: none;
 }
 
 ul {
@@ -64,16 +69,39 @@ ul {
   border-radius: 10px;
   background: rgb(132, 132, 222);
   font-family: 'Sriracha', cursive;
+  color: #fcedd8;
 }
 
 .listItem {
   padding: 4px;
   display: flex;
   justify-content: space-between;
+  color: #fcedd8;
 }
 
 .delete {
   background: rgb(236, 155, 155);
   border-radius: 10px;
   font-weight: bold;
+  color: rgb(57, 54, 54);
+}
+
+@media (min-width: 650px) {
+  h1 {
+    font-size: 4em;
+    margin-top: 100px;
+  }
+  input {
+    font-size: 1em;
+  }
+  .entBut {
+    font-size: 1em;
+  }
+  .section-main {
+    width: 70vw;
+    font-size: 2.5em;
+  }
+  .delete {
+    font-size: 1em;
+  }
 }
